@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+
+   <extension
+         point="org.eclipse.ui.views">
+      <view
+            name="Rubber Duck Debugging"
+            icon="icons/rubber_duck.png"
+            class="cn.robin.rubber.duck.debugging.views.RubberDuckDebuggingViewPart"
+            id="cn.robin.rubber.duck.debugging.views.RubberDuckDebuggingView">
+      </view>
+   </extension>
+
+</plugin>
